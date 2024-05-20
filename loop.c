@@ -16,4 +16,10 @@ int main(void) {
         i2++;
     }
 
+    printf("\n");
+
+    for(int i3 = 0; i3 < 3; i3++){
+        printf("holla\n");
+    }
+
 }
