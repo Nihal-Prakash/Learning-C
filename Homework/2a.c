@@ -1,3 +1,4 @@
+/*a. Write a program to print the average of 3 numbers.*/
 #include <stdio.h>
 #include <stdlib.h>
 
