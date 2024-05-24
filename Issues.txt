@@ -1,0 +1,3 @@
+Calculator
+1. Accepts letters and gives faulty results
+2. Exponents features absent
