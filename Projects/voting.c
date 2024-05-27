@@ -77,13 +77,13 @@ int main() {
         printf(" with %d votes each.\n", maxVotes);
     } else {
         printf("The winning candidate is %s with %d votes.\n", candidates[winnerIndex], maxVotes);
-    }
+    };
 
     // Print the vote count difference
     printf("Vote counts: A: %d, B: %d, C: %d, NOTA: %d\n", vA, vB, vC, vN);
     if (winnerIndex != 3) {
         printf("The winner won by %d votes.\n", maxVotes - votes[(winnerIndex + 1) % 3]);
-    }
-
+    };
+    getchar();
     return 0;
 }
